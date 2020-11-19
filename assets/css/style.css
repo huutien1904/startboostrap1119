@@ -7,14 +7,50 @@ html {
   box-sizing: inherit;
 }
 .Stylish_Portfolio {
+  position: relative;
+  padding: 16.5rem 0 12.5rem;
   background-image: url(../img/bg-masthead.jpg);
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .title {
-  font-size: 10rem;
+  padding: 2rem;
+  font-size: 6rem;
   font-weight: bold;
   color: #000000;
+}
+.discript {
+  padding-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.findoutmore button {
+  width: 12rem;
+  height: 4rem;
+
+  border-radius: 10px;
+  background-color: #1d809f;
+  border: unset;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.findoutmore button:hover {
+  background-color: #155d74;
+}
+.bars {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  background-color: #907a2d;
+  border-radius: 3px;
+  color: white;
+}
+.bars:hover {
+  background-color: #343a40;
 }
